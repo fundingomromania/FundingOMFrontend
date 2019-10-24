@@ -199,6 +199,9 @@ class Editor extends React.Component {
 
                   <fieldset className="form-group">
                     <label className="text-center inputLabelCampaign">Campaign Image</label>
+                    <div class="alert alert-info" role="alert">
+                      Use a Google Drive link or Dropbox link of a picture to add for your campaign.
+                    </div>
                     <input
                       className="form-control"
                       type="text"
@@ -260,6 +263,9 @@ class Editor extends React.Component {
 
                   <fieldset className="form-group">
                     <label className="text-center inputLabelCampaign">Paypal Email Address</label>
+                    <div class="alert alert-info" role="alert">
+                      You must add a business paypal email account.
+                    </div>
                     <input
                       className="form-control"
                       type="email"
