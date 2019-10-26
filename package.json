@@ -2,7 +2,7 @@
   "name": "fundingom",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fundingomromania.com",
+  "homepage": "http://fundingomromania.com",
   "devDependencies": {
     "cross-env": "^5.1.4",
     "react-scripts": "1.1.1"
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
