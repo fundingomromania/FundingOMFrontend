@@ -56,7 +56,9 @@ const CampaignPreview = props => {
     <div className="campaign-preview">
       <div className="row">
         <div className="col-md-4 col-xs-12">
-              <img src={campaign.image} className="img-fluid imgPreview" title="Campaign Image" alt="Campaign"></img>
+              <Link to={`/campaign/${campaign.slug}`} className="preview-link">
+                 <img src={campaign.image} className="img-fluid imgPreview" title="Campaign Image" alt="Campaign"></img>
+              </Link>
         </div>
         <div className="col-md-8 col-xs-12">
               <Link to={`/campaign/${campaign.slug}`} className="preview-link">
