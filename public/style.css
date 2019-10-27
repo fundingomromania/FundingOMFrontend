@@ -1,3 +1,13 @@
+.campaignAuthor {
+    color: #D22630;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.campaign-meta .info {
+    margin: 0;
+    margin-bottom: 2px;
+}
 
 #ytplayer {
     margin-left: auto;
