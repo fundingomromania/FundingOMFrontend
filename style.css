@@ -1,3 +1,26 @@
+.join .donationBtnContainer {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.join-text {
+    text-align: center;
+}
+
+.campaign-page .campaign-content .join-title {
+    color: #D22630;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 80px;
+}
+
+.campaign-page .campaign-content .join-subtitle {
+    color: #6D5E5F;
+    font-size: 35px;
+    font-weight: 500;
+}
+
 .signinText {
 padding-bottom: 20px;
 }
