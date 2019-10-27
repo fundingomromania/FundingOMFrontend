@@ -67,9 +67,7 @@ const CampaignPreview = props => {
           <div className="campaign-meta"> 
             <div className="row">
               <div className="info col-md-12 col-xs-12">
-                  <Link className="author" to={`/@${campaign.author.username}`}>
-                    {campaign.author.username}
-                  </Link> 
+                  <span className="campaignAuthor">{campaign.author.username}</span>
               </div>
             </div>
             <div className="row">
