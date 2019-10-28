@@ -1,3 +1,7 @@
+.campaign-preview p {
+    word-break: break-all;
+}
+
 .join .donationBtnContainer {
     padding-top: 20px;
     text-align: center;
